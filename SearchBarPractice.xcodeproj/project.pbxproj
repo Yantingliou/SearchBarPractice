@@ -13,6 +13,7 @@
 		D3D4EC67218F353D0060AB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D4EC66218F353D0060AB2F /* Assets.xcassets */; };
 		D3D4EC6A218F353D0060AB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D4EC68218F353D0060AB2F /* LaunchScreen.storyboard */; };
 		D3D4EC75218F353E0060AB2F /* SearchBarPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4EC74218F353E0060AB2F /* SearchBarPracticeTests.swift */; };
+		D3D4EC80218F364D0060AB2F /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4EC7F218F364D0060AB2F /* DataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D3D4EC70218F353E0060AB2F /* SearchBarPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D4EC74218F353E0060AB2F /* SearchBarPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarPracticeTests.swift; sourceTree = "<group>"; };
 		D3D4EC76218F353E0060AB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D4EC7F218F364D0060AB2F /* DataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				D3D4EC5F218F353C0060AB2F /* AppDelegate.swift */,
 				D3D4EC61218F353C0060AB2F /* ViewController.swift */,
+				D3D4EC7F218F364D0060AB2F /* DataClass.swift */,
 				D3D4EC63218F353C0060AB2F /* Main.storyboard */,
 				D3D4EC66218F353D0060AB2F /* Assets.xcassets */,
 				D3D4EC68218F353D0060AB2F /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D4EC80218F364D0060AB2F /* DataClass.swift in Sources */,
 				D3D4EC62218F353C0060AB2F /* ViewController.swift in Sources */,
 				D3D4EC60218F353C0060AB2F /* AppDelegate.swift in Sources */,
 			);
@@ -363,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T29CRUSHY5;
 				INFOPLIST_FILE = SearchBarPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T29CRUSHY5;
 				INFOPLIST_FILE = SearchBarPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
